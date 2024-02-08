@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/denumireJobTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denumire Job"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/numeCompanieTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nume Companie"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/denumireJobTxt"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/orasTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oras"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/numeCompanieTxt"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tipJobTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tip job"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/orasTxt"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/taraTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tara"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/tipJobTxt"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/taraTxt"
+            android:gravity="end">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:useMaterialThemeColors="false"
+                android:button="@drawable/selector_job"
+                />
+
+            <Button
+                android:id="@+id/applicationBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="@color/brandColorSecondary"
+                android:text="APPLY NOW" />
+
+            <Button
+                android:id="@+id/viewCandBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="@color/brandColorSecondary"
+                android:text="View Details" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".COMPANIES.JobPostsActivity">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="453dp"
+            android:layout_height="214dp"
+            android:layout_marginBottom="1516dp"
+            android:contentDescription="TODO"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.636"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/rectangle" />
+
+        <ImageView
+        android:id="@+id/backBtnMyApp"
+        android:layout_width="50dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24_white" />
+
+    <TextView
+        android:id="@+id/profileTv"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Create a new job post"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.752"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/jobTitleEt"
+            android:layout_width="346dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:hint="Job Title"
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <EditText
+            android:id="@+id/numeCompanieEt"
+            android:layout_width="346dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:hint="Company Name"
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jobTitleEt" />
+
+        <EditText
+            android:id="@+id/countryEt"
+            android:layout_width="346dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:hint="Country"
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numeCompanieEt" />
+
+        <EditText
+            android:id="@+id/cityEt"
+            android:layout_width="346dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:hint="City"
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/countryEt" />
+
+        <EditText
+            android:id="@+id/jobTypeEt"
+            android:layout_width="346dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:hint="Job Type"
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cityEt" />
+
+        <EditText
+            android:id="@+id/descriptionEt"
+            android:layout_width="346dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:hint="Add a description.."
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jobTypeEt" />
+
+        <EditText
+            android:id="@+id/minSalaryEt"
+            android:layout_width="346dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:hint="Minimum Salary"
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descriptionEt" />
+
+
+        <EditText
+            android:id="@+id/maxSalaryEt"
+            android:layout_width="346dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:hint="Maximum Salary"
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/minSalaryEt" />
+
+
+
+        <EditText
+            android:id="@+id/benefitsEt"
+            android:layout_width="346dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:hint="Benefits"
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/maxSalaryEt" />
+
+
+        <EditText
+            android:id="@+id/experienceEt"
+            android:layout_width="346dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:hint="Experience Level"
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/benefitsEt" />
+
+        <EditText
+            android:id="@+id/requiredEducationEt"
+            android:layout_width="346dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:hint="Required Education"
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/experienceEt" />
+
+        <EditText
+            android:id="@+id/languageRequirementsEt"
+            android:layout_width="346dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:hint="Language Requierments"
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/requiredEducationEt" />
+
+        <EditText
+            android:id="@+id/industryEt"
+            android:layout_width="346dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="4dp"
+            android:elevation="6dp"
+            android:hint="Industry"
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/languageRequirementsEt" />
+
+
+        <Button
+            android:id="@+id/createJobPost"
+            android:layout_width="370dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="158dp"
+            android:text="CREATE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/industryEt" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="166dp"
+            android:layout_height="123dp"
+            android:layout_marginTop="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileTv"
+            app:srcCompat="@drawable/onboardingopportunities" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

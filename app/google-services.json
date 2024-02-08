@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "169664650934",
+    "firebase_url": "https://flyport-3bf8f-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "flyport-3bf8f",
+    "storage_bucket": "flyport-3bf8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169664650934:android:9f746064006bba6f365017",
+        "android_client_info": {
+          "package_name": "com.example.flyport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169664650934-aldth5he0vctgusk15chbq2soe3u91nt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flyport",
+            "certificate_hash": "3227daf9184166a2881ad9c5dca16448b537a689"
+          }
+        },
+        {
+          "client_id": "169664650934-lt7htvu13rv3348q8ensc25ljboh40p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRimPXXoECGsNCkSqLic5905AMerA5f-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169664650934-lt7htvu13rv3348q8ensc25ljboh40p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

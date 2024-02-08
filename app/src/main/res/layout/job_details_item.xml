@@ -1,0 +1,147 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="166dp"
+                    android:layout_height="123dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="111dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="94dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/onboardingopportunities" />
+
+                <TextView
+                    android:id="@+id/denumireJobTxt"
+                    android:layout_width="281dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView13"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="85dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-3dp"
+                    android:text="Denumire Job"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/companie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/denumireJobTxt"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Company"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/numeCompanieTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/companie"
+                    android:layout_marginLeft="10dp"
+                    android:text="Nume Companie"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/oras"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/numeCompanieTxt"
+                    android:layout_marginLeft="10dp"
+                    android:text="City"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/orasTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/oras"
+                    android:layout_marginLeft="10dp"
+                    android:text="Oras"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tipJob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/orasTxt"
+                    android:layout_marginLeft="10dp"
+                    android:text="Job Type"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    tools:ignore="UnknownId" />
+
+                <TextView
+                    android:id="@+id/tipJobTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tipJob"
+                    android:layout_marginLeft="10dp"
+                    android:text="Tip job"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    tools:ignore="UnknownId" />
+
+                <TextView
+                    android:id="@+id/descriere"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tipJobTxt"
+                    android:layout_marginLeft="10dp"
+                    android:text="Description"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/descriereTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/descriere"
+                    android:layout_marginLeft="10dp"
+                    android:text="Descriere"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

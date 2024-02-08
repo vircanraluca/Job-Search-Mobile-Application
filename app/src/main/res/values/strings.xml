@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">FLYPORT</string>
+    <string name="connect_with_facebook">Connect With Facebook</string>
+    <string name="connect_with_google">Connect with Google</string>
+    <string name="or">or</string>
+    <string name="sign_with_password">Sign With Password</string>
+    <string name="login_to_your_account">LOGIN TO YOUR ACCOUNT</string>
+    <string name="login_to_your_account_min">Login To Your Account</string>
+    <string name="log_in">LOG IN</string>
+    <string name="welcome_to_flyport">Welcome to FlyPort</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_in_2">SIGN IN</string>
+    <string name="register_now">Register Now</string>
+    <string name="todo">TODO</string>
+    <string name="password">Password</string>
+    <string name="find_a_job">FIND A JOB</string>
+    <string name="find_employees">FIND EMPLOYEES</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_here">SIGN HERE</string>
+    <string name="select_your_country">Select Your Country</string>
+    <string name="select_your_expertise">Select your expertise</string>
+    <string name="let_s_get_started">Let\'s get started</string>
+    <string name="please_select_what_you_are_looking_for">Please select what you are looking for</string>
+    <string name="don_t_you_have_an_account">Don\'t you have an account?</string>
+    <string name="let_s_get_started_2">LET\'S GET STARTED</string>
+    <string name="first_slider_heading"> Manage the hiring process in one place</string>
+    <string name="first_slider_desc">The hiring process is a complex process and we know it is hard to manage. With our application, you can manage hiring process in one place with minimum of effort. </string>
+    <string name="second_slider_heading">Find the best opportunities</string>
+    <string name="second_slider_desc">The best opportunities are waiting for you and with our application, you do not have to limit to your country. Grab your luggage and find the best place to have a job. </string>
+    <string name="thrid_slider_heading">Provide for your family</string>
+    <string name="thrid_slider_desc">In today world,we know how hard is to find a job with a motivational salary in order to be able to provide for your family. With our application, you can select the desire salary all around the world.</string>
+    <string name="find_the_best_jobs">Find the best jobs</string>
+    <string name="find_dream_job">Find dream job</string>
+    <string name="search">SEARCH</string>
+
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="newest_aplicants">Newest Aplicants</string>
+    <string name="waiting_for_reply">Waiting for reply</string>
+    <string name="newest_applicants">Newest Applicants</string>
+    <string name="in_process">In process</string>
+    <string name="candidates_status">Candidates Status</string>
+    <string name="select_your_domain">Select Your Domain</string>
+    <string name="save">SAVE</string>
+    <string name="create_a_cv">CREATE A CV</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="country">Country</string>
+    <string name="adress_street">Adress- street</string>
+    <string name="city">City</string>
+    <string name="study_level">Study level</string>
+    <string name="upload_a_cv">Upload a CV</string>
+    <string name="street_address">Street Address</string>
+
+
+    <string-array name="spinnerList">
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+    </string-array>
+
+    <string-array name="domain">
+        <item>Technology and IT</item>
+        <item>Marketing and advertising</item>
+        <item>Finance and accounting</item>
+        <item>Medicine and healthcare</item>
+        <item>Engineering and construction</item>
+        <item>Human resources and personnel management</item>
+        <item>Education</item>
+        <item>Others</item>
+        <item>Sales and customer relations</item>
+        <item>Consulting</item>
+        <item>Manufacturing and production</item>
+    </string-array>
+
+
+    <string-array name="industry">
+        <item>Technology and IT</item>
+        <item>Healthcare and medicine</item>
+        <item>Finance and banking</item>
+        <item>Engineering</item>
+        <item>Others</item>
+        <item>Marketing and advertising</item>
+        <item>Media and communications</item>
+    </string-array>
+
+    <string-array name="job_type">
+        <item>Part-Time</item>
+        <item>Full-Time</item>
+    </string-array>
+
+    <string-array name="experience_level">
+        <item>Entry-level</item>
+        <item>No required</item>
+        <item>Mid-level</item>
+        <item>Senior</item>
+    </string-array>
+
+    <string-array name="education_level">
+        <item>High School Diploma</item>
+        <item>Bachelor Degree</item>
+        <item>Master Degree</item>
+        <item>Doctorate or PhD</item>
+        <item>No formal education</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

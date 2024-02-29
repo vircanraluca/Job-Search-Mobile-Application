@@ -1,63 +1,80 @@
-4.1. Prezentarea generală a aplicației
-Căutarea în general al unui loc de muncă este un proces destul de dificil și îndelungat, care implică mai multe procese interconectate. În principal, căutarea unui loc de muncă presupune o scanare atentă a ofertei de muncă disponibile în sectorul dorit și o alegere în conformitate cu dorințele și necesitățile participantului în cauză. 
-Aplicația de față își propune să simplifice întregul proces de angajare, atât din perspectiva solicitanților de locuri de muncă, cât și din punct de vedere al companiei angajatoare, contribuind la crearea unei piețe de muncă gestionate mult mai eficient.
-4.2. Profilul solicitantului
-4.2.1. Crearea și gestionarea conturilor. 
- 
-Ecranul principal din cadrul aplicației, realizează împărțirea utilizatorilor în două tipuri: solicitanți de locuri de muncă și companii angajatoare. În cazul în care utilizatorul este un solicitant de locuri de muncă, el trebuie să se conecteze în aplicație fie prin email și parolă, fie prin utilizarea rețelelor de socializare cum ar fi Facebook, Gmail sau Twitter. 
-4.2.2. Crearea unui cont și resetarea parolei
-În cazul în care utilizatorul nu s-a înregistrat încă, el este nevoit să își creeze un cont în aplicație, completând toate câmpurile necesare. Activarea contului se realizează prin intermediul platformei Gmail, utilizatorul primind pe adresa de email introdusă un link pentru activarea contului. 
-În plus, aplicația permite și opțiunea de resetare a parolei prin intermediul aceleași adrese de email, în cazul în care aceasta a fost uitată. 
+The Job Search Application mirrors the job search experience by seamlessly integrating the needs of administrators, job seekers, and companies. Administrators wield comprehensive control over the system, ensuring smooth operations and adherence to platform standards. Job seekers benefit from personalized profiles and advanced search tools, empowering them to discover relevant job opportunities tailored to their skills and aspirations. Meanwhile, companies leverage the platform to efficiently connect with qualified candidates, streamlining the recruitment process.
+Technologies Overview : Java, Android SDK, Firebase
 
- 
-	
-4.2.3. Panoul principal al solicitantului de joburi
-Panoul principal al solicitantului conține lista de locuri de muncă de care aplicația dispune și un meniu în care se află anumite secțiuni de interes menite să îi optimizeze procesul de angajare.  Fiecare loc de muncă are atașat butoane pentru adăugarea locului de muncă la favorite, vizualizarea detaliilor despre acesta sau posibilitatea de a aplica pentru locul de muncă respectiv. 
+I. Job Seeker Profile
+1. Account Creation and Management
+The main screen within the application divides users into two types: job seekers and hiring companies. In the case of a job seeker, they must log into the application either via email and password or by using social networks such as Facebook, Gmail, or Twitter.
+![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/7263196c-881b-42d0-9937-9aea818cd413)
 
- 
+2. Account Creation and Password Reset
+If the user has not yet registered, they are required to create an account in the application by completing all necessary fields. Account activation is done through the Gmail platform, with the user receiving a link to activate the account at the provided email address. Additionally, the application also allows the option to reset the password through the same email address if it has been forgotten.
 
-4.2.4. Afișarea detaliilor suplimentare & Aplicarea filtrelor pentru trierea locurilor de muncă
-Utilizatorul beneficiază de opțiunea de triere a joburilor aferente, acest triaj fiind realizat cu ajutorul unor filtre specifice precum domeniul, industria din care face parte locul de muncă respectiv, nivelul de experiență pe care participantul îl are, nivelul de educație de care dispune participantul, țara, orașul sau denumirea locului de muncă respectiv. 
+![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/0d7b817c-1235-47d8-822c-96adb745c62c)
 
- 
-4.2.5. Secțiunea de joburi aplicate 
-Meniul aplicației conține secțiuni de interes pentru solicitantul de joburi, menite să îi optimizeze procesul de angajare, precum secțiunea de joburi aplicate, secțiunea de joburi favorite, secțiunea de încărcat CV-ul, și butonul de deconectare din aplicație. 
-În secțiunea de locuri de muncă aplicate , sunt stocate locurile de muncă la care un participant a aplicat, pentru a ține o evidență a acestora. 
+3.  Job Seeker Main Panel
+The job seeker's main panel contains the list of job opportunities available in the application and a menu with certain sections of interest aimed at optimizing the hiring process. Each job listing includes buttons to add the job to favorites, view details about it, or apply for the respective job.
+   ![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/ba6c8a9f-0606-499e-95e4-94b9f7381740)
 
- 
-4.2.6. Secțiunea de favorite & Încărcare a CV-urilor 
-În secțiunea de favorite, participantul poate adăuga locurile de muncă care i-au atras atenția în vederea aplicării lor ulterioare, sau poate elimina locul de muncă în cazul în care nu mai corespunde cu nevoile sale specifice, iar în secțiunea de încărcare a CV-urilor, utilizatorul poate încărca din fișierele locale aflate în telefonul său, CV-ul în format pdf.
- 
-4.6. Chestionar solicitanți de locuri de muncă
-În această secțiune este realizat un chestionar al utilizatorului pentru a  afla anumite detalii referitoare la ce tip de loc de muncă își dorește, țara și orașul unde își dorește să lucreze și multe alte întrebări care au scopul de a-i optimiza experiența în cadrul aplicației. 
- 
+4.  Displaying Additional Details & Applying Filters to Sort Jobs
 
-4.3. Panoul companiei angajatoare
-4.3.1. Conectarea & Înregistrarea în aplicație  
-În cazul companiilor care nu deja cont pe platforma, activarea contului trebuie să se realizeze de către administrator pentru a le verifica legitimitatea. După ce a primit acceptul administratorului, compania poate accesa cu succes platforma. 
- 
-4.3.2.  Panoul principal al companiilor angajatoare 
-Panoul principal al companiilor angajatoare conține secțiunea de candidați în care sunt afișați candidații pentru un anumit job, secțiunea de locuri de muncă postate care ține evidența tuturor locurilor de muncă postate de un utilizator, secțiunea de găsire a candidatului ideal în care compania poate contacta candidații ideali și secțiunea de analiză care furnizează anumite grafice generate pe baza anumitor date stocate în baza de date.  De asemenea  panoul conține și un meniu care include secțiunile de profil,  secțiunea de postat locuri de muncă și de deconectare din aplicație. 
- 
-4.3.2.  Secțiunea de adăugare a unui job
-Prin intermediul acestei secțiuni, compania poate posta locuri de muncă direct în aplicație, completând câmpurile necesare pentru declararea unui job, precum tipul de loc de muncă, locația unde se află și multe alte câmpuri necesare pentru definirea corespunzătoare ale unui job. Dacă adăugarea s-a realizat cu succes, locul de muncă respectiv va fi afișat atât în panoul principal al solicitantului, cât și în secțiunea de Locuri de muncă Postate.
+The user has the option to filter relevant jobs, using specific filters such as industry, job domain, participant's level of experience, participant's education level, country, city, or job title.
 
- 
-4.3.3.  Secțiunea de locuri de muncă postate
-În cadrul acestei secțiuni, compania poate gestiona locurile de muncă postate, putându-le edita sau șterge definitiv în cazul în care își dorește acest lucru. 
- 
-4.3.4.  Secțiunea de candidați pentru un anumit loc de muncă
-În cadrul acestei secțiuni, compania poate vizualiza candidații pentru un anumit loc de muncă postat. De asemenea, aceasta dispune de posibilitatea de a vizualiza CV-ul participantului, evaluând dacă acesta este o alegere optimă pentru companie. 
- 
- 
-4.3.3.  Secțiunea de Căutare a candidaților ideali
-În această secțiune compania poate căuta candidații ideali pentru un anumit loc de muncă, fără a mai aștepta aplicarea acestora. Compania poate realiza o triere cu ajutorul unor filtre precum domeniul dorit, industria, tipul de job, nivelul de experiență, platforma afișând doar participanții care îndeplinesc criteriile căutate de angajator. 
-În momentul în care firma angajatoare a găsit candidatul ideal, aceasta poate să îl contacteze prin intermediul butonului de email, care îl va redirecționa automat pentru a-i trimite un anunț candidatului. 
- 
-4.4. Panoul Administratorului 
-4.4.1. Panoul principal & Secțiune de acordare a accesului în aplicație
-În cadrul aplicației, administratorul este cel care acordă accesul în aplicație companiilor, în cazul în care acestea prezintă legitimitate, astfel încât persoanele care doresc să aplice pentru un loc de muncă în cadrul unei companii, să fie asigurați de fiabilitatea companiei. 
- 
-4.4.1.  Panoul de gestionare a utilizatorilor și a locurilor de muncă postate
-În cadrul acestor secțiuni, administratorul are acces la datele stocate de utilizatori, precum și la informațiile personale ale acestora, având în vedere că trebuie să dețină o evidență a tuturor acțiunilor care se întreprind în platformă. Administratorul poate restricționa accesul pentru anumiți utilizatori care nu îndeplinesc anumite criterii, sau poate elimina locurile de muncă postate care nu sunt în conformitate cu anumite condiții. 
- 
+![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/0d12f9af-d970-42c5-9c71-1af7457e621a)
+
+5.  Applied Jobs Section
+
+The application menu includes sections of interest for job seekers, designed to optimize their hiring process, such as the section for applied jobs, favorites, uploading resumes, and the logout button.
+In the applied jobs section, the job positions to which a participant has applied are stored to keep track of them.
+![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/006b4cd5-dd64-4a8a-a224-f4f00bd7a382)
+
+6. Favorites Section & Resume Upload
+
+In the favorites section, the participant can add job positions that have caught their attention for future application or remove the job position if it no longer meets their specific needs. In the resume upload section, the user can upload their resume in PDF format from local files on their phone.
+![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/b0da3ce4-d57e-4afb-bc30-935d7499aa26)
+
+7. Job Seeker Questionnaire
+
+This section consists of a user questionnaire to gather specific details regarding the type of job desired, the country and city where they wish to work, and many other questions aimed at optimizing their experience within the application.
+![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/a40ccc99-af3a-47cf-be08-e6d89d310eb6)
+
+II. Employer Panel
+
+1. Connection & Registration in the Application
+For companies that do not already have an account on the platform, the account activation must be performed by the administrator to verify their legitimacy. After receiving approval from the administrator, the company can successfully access the platform.
+![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/f7052f14-8004-43f4-ae76-8ff4320c248a)
+
+
+2. Main Panel of Hiring Companies
+The main panel of hiring companies includes the candidate section where candidates for a specific job are displayed, the section for posted job positions that keeps track of all job positions posted by a user, the ideal candidate finding section where the company can contact ideal candidates, and the analysis section that provides certain graphs generated based on specific data stored in the database. Additionally, the panel includes a menu comprising profile sections, the job posting section, and the logout option.
+![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/0857cd01-aef1-4377-a53d-5355b6a90553)
+
+
+3. Job Posting Section
+Through this section, the company can directly post job positions in the application, filling in the necessary fields for declaring a job such as the job type, location, and many other fields necessary for defining a job properly. If the posting is successful, the respective job position will be displayed both in the main panel of job seekers and in the section of Posted Job Positions.
+![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/b06901f4-670b-4aa0-9d43-be5fcb4fa4ef)
+
+
+5. Posted Job Positions Section
+In this section, the company can manage the posted job positions, being able to edit or permanently delete them if desired.
+![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/2536dbdb-d475-452f-b7d0-ff548be58fc3)
+
+
+7. Candidates for a Specific Job Section
+In this section, the company can view the candidates for a specific job position. Additionally, it has the option to view the participant's CV, evaluating whether they are an optimal choice for the company.
+![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/6b7e0359-5c86-40a8-9c70-136d46300a39)
+
+
+9. Ideal Candidate Search Section
+In this section, the company can search for ideal candidates for a specific job position without waiting for their application. The company can filter candidates based on desired domain, industry, job type, experience level, with the platform displaying only participants who meet the employer's criteria. Once the hiring company finds the ideal candidate, it can contact them through the email button, which will automatically redirect to send an announcement to the candidate.
+![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/78168e6f-0463-4906-ad96-2fb4a92ee350)
+
+
+III. Administrator Panel
+1. Main Panel & Access Granting Section in the Application
+In the application, the administrator is responsible for granting access to companies, ensuring their legitimacy so that individuals who wish to apply for a job within a company can be assured of its reliability.
+![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/c36f99c4-9d3e-446f-bf2b-b6adaccd0eb5)
+
+2. User and Posted Job Management Panel
+In these sections, the administrator has access to the data stored by users, including their personal information, as they need to maintain a record of all actions taken on the platform. The administrator can restrict access for certain users who do not meet certain criteria or remove posted job positions that do not comply with specific conditions.
+![image](https://github.com/vircanraluca20/Job-Search-Mobile-Application/assets/115553717/8d865a58-ce23-4e2b-a0d6-140fbcc25430)
+
